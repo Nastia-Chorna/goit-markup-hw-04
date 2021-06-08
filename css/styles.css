@@ -49,10 +49,6 @@ text-align: center;
   background-size: 1600px;
 }
   
-
-
-
-
 .header-link {
 color: #757575;
 font-family: Roboto;
@@ -319,7 +315,7 @@ p{
   padding-right: 68px;
 }
 .details-section{
-  padding-top: 94px;
+  
   padding-bottom: 94px;
 }
 .container-details{
@@ -349,6 +345,53 @@ p{
   margin-bottom: 10px;
 }
 
+.box-one{
+Width: 270px;
+Height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+margin-right: 30px;
+background-image: url(../images/description.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.box-two{
+  Width: 270px;
+  Height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background-image: url(../images/description-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.box-three{
+  Width: 270px;
+  Height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background-image: url(../images/description-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box-four{
+Width: 270px;
+Height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+margin-right: 30px;
+background-image: url(../images/description-3.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
 
  h2{
   font-family: Roboto;
@@ -401,6 +444,120 @@ margin-right: 30px;
 margin-right: 30px;
 }
 
+.company-divide:hover,
+.company-divide:focus {
+  color: #2196F3;
+}
+
+
+.company-divide{
+  display: flex;
+  justify-content: space-between;
+ margin: 0;
+ padding: 0;
+}
+.company-divide >.company-li:not(:last-child){
+  margin-right: 30px;
+}
+.clients-section {
+ 
+  padding-bottom: 94px;
+}
+.container-clients h2{
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+.company{
+margin-right: 30px;
+background-image: url(../images/logo.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+.company-li:hover
+.company-li:focus{
+color: #2196F3;
+}
+.company-one{
+  margin-right: 30px;
+  background-image: url(../images/logo-one.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.company-two{
+  margin-right: 30px;
+  background-image: url(../images/logo-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.company-three{
+  margin-right: 30px;
+  background-image: url(../images/logo-3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.company-four{
+  margin-right: 30px;
+  background-image: url(../images/logo-4.svg);
+  color: #AFB1B8;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.company-five{
+  margin-right: 30px;
+  background-image: url(../images/logo-5.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-clients{
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;}
+
+  .company {
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.company-one{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.company-two{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.company-three{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.company-four{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.company-five {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+
 h2 {
   font-family: Roboto;
   font-style: normal;
@@ -437,6 +594,10 @@ h2 {
 
 .container-adr{
   background-color: #2f303a;
+  width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
 }
 .last-container{
   width: 1200px;
@@ -453,15 +614,31 @@ h2 {
   font-size: 14px;
   line-height: 1.5;
   color: white;
+  margin-top: 20px;
 }
 
 .container-adress li {
   color: var(-adress-color);
 }
-.container-adress{
-  margin-top: 20px;
-  margin-bottom: 60px;
+
+.footer-divide{
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
+.footer-divide >.adress-divide:not(:last-child){
+  margin-right: 156px;
+}
+
+.adress-divide h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  Line height: 1.17px;
+  color: white;
+}
+
 .website-name-footer {
   color: #ffffff;
   font-family: Raleway;
