@@ -541,9 +541,21 @@ footer{
 }
 
 .footer-media{
-  margin-left: 70px;
+ display: flex;
+ width: 206px;
+ margin: 0;
+ padding: 0;
+ margin-top: 20px;
+ justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
 }
 
+.footer-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .footer-icons li{
 width: 44px;
 height: 44px;
@@ -581,6 +593,7 @@ align-items: center;}
 .footer-media{
   display: flex;
 }
+
 
 .footer-media {
   display: flex;
@@ -652,6 +665,29 @@ padding: 0;
 .company-li{
   margin-left: auto;
  margin-right: auto;
+}
+
+.logo-icon{
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+}
+
+.logo-icon:hover{
+  border: 1px;
+  fill: #2196F3;
+}
+.company-li{
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+.company-li:hover{
+  border-color: #2196F3;
 }
 .clients-section {
   padding: 0;
