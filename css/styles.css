@@ -30,6 +30,7 @@ font-size: 44px;
 line-height: 1.3;
 color: #FFFFFF;
 text-align: center;
+margin-top: 0;
 }
 
 .box {
@@ -138,7 +139,7 @@ stroke: #757575;
   margin-right: 93px;
   }
 
-  .container-buttons li {
+  /*.container-buttons li {
   display: inline-block;
   font-family: Roboto;
   font-style: normal;
@@ -151,46 +152,33 @@ stroke: #757575;
   width: 1200px;
   margin: 0 auto;
   margin-bottom: 50px;
- }
+ }*/
+
 
 
 .container-buttons:hover,
 :focus {color: white;
 }
-
+.bigger-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .button-one {
 text-align: center;
 cursor: pointer;
 padding: 6px 22px;
-background-color: #2196F3;
-border: 1px solid transparent;
+background-color: #f5f4fa;
+border: transparent;
+border-radius: 4px;
+font-family: Roboto;
+font-weight: 500;
 }
-.button-two {
-  text-align: center;
-  cursor: pointer;
-  width: 128px;
-  border: 1px solid transparent;
-  }
 
-.button-four {
-  text-align: center;
-  cursor: pointer;
-  padding: 6px 22px;
-  border: 1px solid transparent;
-  }
-.button-five {
-  text-align: center;
-  cursor: pointer;
-  padding: 6px 22px;
-  border: 1px solid transparent;
-  }
-.button-six {
-  text-align: center;
-  cursor: pointer;
-  padding: 6px 22px;
-  border: 1px solid transparent;
-  }
-/* selector of tag ul and a*/
+.button-one:hover,
+.button-one:focus {
+  color: white;
+  background-color: #2196F3;
+}
 ul {
   list-style: none;
   margin: 0;
@@ -233,6 +221,8 @@ h1 {
  list-style: none;
  margin: 0;
  padding: 0;
+ margin-top: 0;
+ margin-bottom: 30px;
 }
 .container {
   display: flex;
@@ -265,6 +255,7 @@ width: 294px;
 .descript{
   display: flex;
   justify-content: space-between;
+  margin-right: 30px;
   
 }
 .navlist > .header-link:not(:last-child) {
@@ -296,11 +287,13 @@ width: 294px;
 
 .buttons {
 display: flex;
-margin: auto;
-width: 611px;
-align-items: center;
+justify-content: center;
+margin-bottom: 50px;
 }
 
+.buttons >.button-list:not(:last-child){
+  margin-right: 8px;
+}
 .button-first:hover,
 .button-first:focus {
   color: white;
@@ -331,7 +324,6 @@ h3{
  margin-bottom: 10px;
 }
 p{
-  list-style: none;
  margin: 0;
  padding: 0;
 }
@@ -339,21 +331,36 @@ p{
 .small-border{
   padding-top: 30px;
   padding-bottom: 30px;
- 
+  padding-left: 32px;
+ padding-right: 32px;
+ text-align: center;
+ background-color: #ffffff;
 }
 .small-border-two{
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+ padding-right: 32px;
+ text-align: center;
+ background-color: #ffffff;
   
 }
 .small-border-three{
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+ padding-right: 32px;
+ text-align: center;
+ background-color: #ffffff;
   
 }
 .small-border-four{
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+ padding-right: 32px;
+ text-align: center;
+ background-color: #ffffff;
   
 }
 .details-section{
@@ -390,7 +397,7 @@ p{
 .box-one{
 width: 270px;
 height: 120px;
-background: #F5F4FA;
+background: #ffffff;
 border-radius: 4px;
 
 background-image: url(../images/description.svg);
@@ -401,7 +408,7 @@ background-position: center;
 .box-two{
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #ffffff;
   border-radius: 4px;
   background-image: url(../images/description-1.svg);
   background-repeat: no-repeat;
@@ -411,7 +418,7 @@ background-position: center;
 .box-three{
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #ffffff;
   border-radius: 4px;
   
   background-image: url(../images/description-2.svg);
@@ -422,7 +429,7 @@ background-position: center;
 .box-four{
 width: 270px;
 height: 120px;
-background: #F5F4FA;
+background: #ffffff;
 border-radius: 4px;
 
 background-image: url(../images/description-3.svg);
@@ -444,6 +451,7 @@ width: 1200px;
 padding-left:15px ;
 padding-right: 15px;
 margin: 0 auto;
+padding-bottom: 94px;
 
 .container-pics-three{
   padding-bottom: 94px;
@@ -479,6 +487,7 @@ margin-right: 30px;
   display: flex;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 .my-team > .team-items:not(:last-child) {
 margin-right: 30px;
@@ -515,6 +524,11 @@ p{
   fill: white;
 }
 
+footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
 }
 .footer-icons{
   display: flex;
@@ -658,6 +672,13 @@ background-position: center;
 .company-li:focus{
 color: #2196F3;
 }
+
+.company-zero{
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+background-position: center;
+}
+
 .company-one{
   
   background-image: url(../images/logo-one.svg);
@@ -672,13 +693,13 @@ color: #2196F3;
 }
 .company-three{
   
-  background-image: url(../images/logo-3.svg);
+  background-image: url(../images/logo-33.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .company-four{
   
-  background-image: url(../images/logo-4.svg);
+  background-image: url(../images/icon-client4.svg);
   color: #AFB1B8;
   background-repeat: no-repeat;
   background-position: center;
@@ -775,13 +796,7 @@ h2 {
   color: var(--p-color);
 }
 
-.container-adr{
-  background-color: #2f303a;
-  width: 1600px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin: 0 auto;
-}
+
 .last-container{
   width: 1200px;
   padding-left: 15px;
@@ -790,6 +805,22 @@ h2 {
 }
 .last-container{
   display: flex;
+}
+.container-adress{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+}
+.last-container h6 {
+font: Roboto;
+font-weight: 400px;
+list-style: none;
+size: 14px;
+color: #ffffff;
+margin-bottom: 9px;
 }
 
 .footer-contacts {
@@ -807,9 +838,6 @@ h6 {
   
 }
 
-.container-adress li {
-  color: var(-adress-color);
-}
 
 
 
@@ -831,26 +859,26 @@ h6 {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  margin-top: 60px;
+  margin-bottom: 20px;
+  display: block;
 }
 .website-name-footer a {
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .container-pictures{
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
-.bigger-section{
-padding-top: 56px;
-padding-bottom: 94px;
-}
+
 .big-border {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid #EEEEEE;
+  border-top: none;
 }
 
 .first-pics{
@@ -864,16 +892,11 @@ margin-top: -30px;
 }
 
 .first-pics >.last-pics{
-flex-basis: calc(100% /3 -30);
+flex-basis: calc(100% / 3 - 30px);
 margin-left: 30px;
 margin-top: 30px;
 }
 
-.last-pics {
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-}
 
 .team-items {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
