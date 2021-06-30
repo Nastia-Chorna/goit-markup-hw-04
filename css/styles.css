@@ -44,13 +44,7 @@ margin-top: 0;
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
-  background-color: #2F303A;
-  background: rgba(47, 48, 58, 0.4);
-  background-image: linear-gradient( 
-    to right, 
-    rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-    );
-background-image: url("../images/background.jpg");
+  background: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
 background-size: 1600px;
 }
   
@@ -520,17 +514,7 @@ margin-right: 30px;
 p{
   text-align: center;
 }
-.button-icon{
-  width: 20px;
-  height: 20px;
-  fill: #AFB1B8;
-}
-.button-icon:hover,
-.button-icon:focus{
-  stroke:white;
-  border: 1px;
-  fill: white
-}
+
 
 .social-media:hover,
 .social-media:focus {
@@ -556,7 +540,7 @@ justify-content: center;
 align-items: center;
 
 fill: #AFB1B8;
-background-color: red;
+background-color:transparent;
 }
 
 .change-insta:hover,
@@ -634,21 +618,6 @@ color: #2196F3;
 }
 
 
-.media-icon{
-width: 44px;
-height: 44px;
-background-color: transparent;
-display: flex;
-border-radius: 50px;
-justify-content: center;
-align-items: center;}
-
-.media-icon:hover,
-.media-icon:focus{
-  
-background-color:#2196F3;
-}
-
 .footer-media{
   display: flex;
 }
@@ -708,21 +677,16 @@ padding: 0;
   margin-left: auto;
  margin-right: auto;
 }
-.change-company:hover,
-.change-company:focus{
-  border-color: #2196F3;
-}
+
 .logo-icon{
   width: 106px;
   height: 60px;
-  fill: #AFB1B8;
+ 
 }
 
-.logo-icon:hover{
-  border: 1px;
-  fill: #2196F3;
-}
-.company-li{
+.change-company {
+  fill: #AFB1B8;
+
   padding: 16px 32px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -731,6 +695,14 @@ padding: 0;
   display: block;
   text-align: center;
 }
+
+.change-company:hover,
+.change-company:focus{
+  fill: #2196F3;
+  border-color: #2196F3;
+}
+
+ 
 
 .clients-section {
   padding: 0;
@@ -747,10 +719,7 @@ background-image: url(../images/logo.svg);
 background-repeat: no-repeat;
 background-position: center;
 }
-.company-li:hover
-.company-li:focus{
-color: #2196F3;
-}
+
 
 .company-zero{
   background-image: url(../images/logo.svg);
